@@ -1,6 +1,6 @@
 # parallelMergeSort
-Parallel Merge Sort alghoritm using openMP
-The strategy to parallelize the merge sort algorithm is as follows:
+Parallel Merge Sort alghoritm using openMP.
+The strategy to parallelize the merge sort algorithm works as follows:
 1. Divide the vector of size N into p slices, where p is the number of processors.
    Each section is large N/p
    
